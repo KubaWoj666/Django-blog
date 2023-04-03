@@ -10,3 +10,4 @@ class Post(models.Model):
     # ! db_index=True jest domyślne w polu SlagField i nie trzeba go ustawiać
     slug = models.SlugField(unique=True, db_index=True)
     content = models.TextField(validators=[MinLengthValidator(10)])
+    
