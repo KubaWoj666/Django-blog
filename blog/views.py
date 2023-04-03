@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from datetime import date
+from .models import Tag, Author, Post
 
 # Create your views here.
 
